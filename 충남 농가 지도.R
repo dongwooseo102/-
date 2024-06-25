@@ -5,7 +5,7 @@ library(leaflet)
 library(dplyr)
 library(purrr)
 
-register_google(key = "AIzaSyDC3jRMLx6iZupEUumOYm3lQ2jSOCv4y3c")
+register_google(key = "key")
 addresses <- c("충남 홍성군 홍동면 충절로 371번길 107-45",
                "충남 홍성군 홍동면 충절로 344번길 62-55",
                "충남 홍성군 서부면 서부로 295-90",
