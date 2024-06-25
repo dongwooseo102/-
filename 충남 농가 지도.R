@@ -1,7 +1,3 @@
-install.packages("purrr")
-install.packages("geosphere")
-install.packages("ggmap")
-install.packages("shiny")
 library(geosphere)
 library(ggmap)
 library(shiny)
@@ -85,5 +81,3 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
-
-rsconnect::setAccountInfo(name='chungnamfarm', token='EE5A05C13255E2FAD196F9CB370557CE', secret='X9ZC5atSa2b6V2xsw3taCeaWdZ1ZOmn4v+arZGHB')
